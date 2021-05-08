@@ -1,0 +1,362 @@
+/**
+Title: site.css
+Author: Soliman Abdelmalak
+Date: 05/05/2021
+Description: Styling for the index.html file
+*/
+/**
+HTML and the body font-family set to the  Google font.
+*/
+body {
+    color: #000;
+    margin: 0;
+    background-color:#e6ffff;
+    font-size: 16px;
+}
+/**
+this is the Set up of the .header bar title.
+*/
+#banner {
+    margin: -1% 0 0;
+    padding-top: 10px;
+    text-align: center;
+    height: 100px;
+    background-color: #3c275a;
+    color: #fff;
+    border-bottom: 1px solid #D6A800;
+}
+/*These are the Set up of the .nav-container*/
+#nav-container {
+    margin: -16px 0 0 0;
+    padding: 0;
+    height: 42px;
+    list-style-type: none;
+    border-bottom: 1px solid #bbbbbb;
+    background-color: #4F3674;
+}
+/* nav-list styling*/
+#nav-list {
+    list-style-type: row;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1em;
+
+}
+
+#nav-list li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: block;
+}
+
+#nav-list li a {
+    background-color: #4F3674;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 5px 3px 5px;
+    display: block;
+}
+
+#nav-list li a:hover {
+    color: #4F3674;
+    background-color: #fbf8e6;
+    border-bottom: 3px solid #4F3674;
+    cursor: pointer;
+}
+
+.main-content {
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+}
+/*footer styling*/
+#footer {
+    font-size: 1.1em;
+    text-align: center;
+    height: 30px;
+    border-top: 1px solid #D6A800;
+    padding: 15px 0 15px 0;
+    font-style: italic;
+    background-color: #3c275a;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#footer a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:visited {
+    color: #fff;
+}
+
+#footer a:hover {
+    color: #4F3674;
+    background-color: #fbf8e6;
+}
+
+/**
+These are the Set of the .assign-container
+*/
+.assign-container {
+    padding: 10px;
+    min-height: 100vh;
+
+}
+/**
+These are the Set of the .assign-content
+*/
+.assign-content {
+    width: 75%;
+    margin: 3% auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+
+}
+
+.assign-results-text {
+    text-align: center;
+    font-size: 28px;
+}
+/**
+   This is the setup  for .app-header.
+*/
+.app-header {
+    text-align: center;
+    font-weight: 400;
+    border: none;
+    color: inherit;
+    background-color: inherit;
+    color: #4F3674;
+}
+/**
+  These are the Setup of the anchor tags.
+ */
+ #return-home{
+    color: #4f3674;
+    text-decoration: none;
+    margin-left: 20%;
+    font-size: 20px;
+
+ } 
+
+.return-home:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+.return-home:visited {
+    color: #3c275a;
+}
+ /* This is the setup for the .card */
+.card {
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+     margin: 3% auto 0;
+}
+
+.card-title {
+    Font-family:'oswald',Georgia,'Times New Roman',serif;
+    text-align: left;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;
+}
+
+
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #4F3674;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+ /* This is the setup for place holder */
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 75px;
+    margin-left: auto;
+}
+/**
+This is the setup for the drop-down-menu
+*/
+.drop-down-menu {
+    display: none;
+    position: relative;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  .dropdown:hover .drop-down-menu {
+    display: block;
+  }
+/**
+This is the setup for the   Important Links
+*/
+.links{
+     Font-family:'Roboto',Georgia,'Times New Roman',serif;
+     font-weight: 400;
+     font-size: 1.6em; 
+     font-style: italic;
+     margin-left: 15%;
+     color: purple;
+     
+}
+ 
+  
+
+.form {
+    display: inline-grid;
+    grid-template-columns: auto;
+}
+
+.form-field {
+    padding: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+/**
+This is the setup for the text in the footer navbar .
+*/
+#button {
+  float: right;
+  margin-right: 30px;
+  Font-family:'Roboto',Georgia,'Times New Roman',serif;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+/**
+This is the setup for the main photo .
+*/
+.photo-container {
+    width: 18em;
+    float: right;
+    height: 26em;
+    
+  }
+  /**
+These are the Setup of the anchor tags.
+*/
+a{
+    color:#453674;
+    text-decoration: none;
+  }
+  /**
+  These are the Set of the anchor tag’s hover
+  */
+   a:hover {
+     background-color:#fbf8e6;
+     color:#4F3674 ;
+  }
+  .images{
+    display: grid; 
+     grid-template-columns: auto auto auto auto;
+     margin-bottom: 100px;
+     margin-top: 50px;
+     text-align: center;
+}
+.main-picture{
+    border-radius: 35%;
+    margin-left: 550px;
+    margin-bottom: -50px;
+}
+ 
+
+
+
+
+ /**
+   This is  the beginning of the styling for resume.html
+ */
+  .skills{
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    gap: 0;
+    font-size: 1.4em;
+ }
+ /** This is the set up for the table. */
+table { 
+    border-collapse: collapse;
+    font-size: 1.4em;   
+    margin-bottom: 30px;
+}
+
+/** This is the set up for the Table header. */
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+ }
+
+/** This is the set up for the table data. */
+td, th {
+    background-color: transparent;
+    border: 0px solid;
+    padding: 10px;
+    border-color: none;
+}
+
+table td.shrink {
+    white-space: nowrap;
+}
+table td.expand {
+    width: 99%;
+}
+
+
+
+
+
+/**
+   This is  the beginning of the bucket.html styling.
+ */
+ .bucket {
+    border: solid;  
+    margin: 30px;
+    
+    display:inline-block;
+
+}
+ .myList {
+ border:thin;
+    background-color:white;  
+    
+}

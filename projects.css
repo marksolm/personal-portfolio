@@ -1,0 +1,36 @@
+
+#projects-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 20px;
+}
+
+.projects {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+margin-top: -50px;
+}
+  
+.projects li {
+    float: left;
+    margin-bottom: 10%;
+}
+  
+.projects li a {
+    display: block;
+    width: 170px;
+    height: 100px;
+    text-align: center;
+    margin: auto 10px;
+    font-weight: bold;
+    color: #58caf0;
+    font-size: large;
+}
+  
+.projects img {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
