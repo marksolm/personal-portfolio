@@ -26,9 +26,9 @@ Description: Styling for the projects.html file
 /**
    This is the setup for the figure div .projects.
 */
-figure
+
 .projects {
-    display: ;
+    display:inline grid;
     text-align: center;
     margin-top: -50px;
 }

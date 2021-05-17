@@ -333,6 +333,13 @@ table td.expand {
     border-style: solid; 
     margin: 50px;
   }
+  /* Single column display for project and about images grids */
+@media (max-width: 459px) {
+    .archive {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
 
 
