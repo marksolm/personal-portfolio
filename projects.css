@@ -8,7 +8,7 @@ Description: Styling for the projects.html file
 /**
    This is the setup for the main div #projects-container.
 */
-#projects-container {
+.projects-container {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -16,6 +16,13 @@ Description: Styling for the projects.html file
     grid-gap: 20px;
     position: relative;
 }
+/* Single column display for phones */
+@media (max-width: 459px) {
+    .archive {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 /**
    This is the setup for the figure div .projects.
 */

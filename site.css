@@ -265,14 +265,7 @@ a{
      margin-top: 50px;
      text-align: center;
 }
-/* Single column display for phones */
-@media (max-width: 459px) {
-    .archive {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
+
   
 /**
   this is about page .main-picture setup.
@@ -309,6 +302,7 @@ table {
     border-collapse: collapse;
     font-size: 1.4em;   
     margin-bottom: 30px;
+    display: inline-table;
 }
  /** This is the set up for the Education table header. */
 th {
@@ -351,7 +345,7 @@ table td.expand {
 /** This is the setup for un order .myList. */
  .myList {
     box-sizing: border-box;
-    display: grid;
+    display:inline-table;
     height: 400px;
     grid-template-columns: 800px;
     grid-template-rows: repeat(7, 1fr);
