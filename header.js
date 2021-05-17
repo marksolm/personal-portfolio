@@ -1,3 +1,9 @@
+/**
+Title: header.js
+Author: Soliman Abdelmalak
+Date: 05/11/2021
+Description: Export the Header class to my web pages.
+*/
 class Header extends HTMLElement
 {
     constructor() {

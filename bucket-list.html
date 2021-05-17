@@ -1,4 +1,3 @@
-
 <!-- Title: bucket-list.html
      Author: Soliman Abdelmalak
      Date: 05/04/2021
@@ -7,6 +6,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> welcome to my bucket-list page</title>
 
     <!-- Stylesheet references -->
@@ -19,57 +19,52 @@
     <script src="footer.js"></script>
 </head>
 <body>
+    <!-- Import the header. -->
     <header-component></header-component>
 
     <div class="assign-container">
-        <h1 class="app-header">Welcome to Bucket list Page</h1>
+        <!-- This is the setup for class app-header. -->
+        <h1 class="app-header">Welcome to My Bucket List Page</h1>
         <div class="bucket">
-            <div class="card">
-                <div style="text-align: center; color: blue;" class="card-title">
+            <!-- This is the setup for main div bucket. -->
+            <div class="card" style="width:60%;">
+                <h1 id="blue" class="app-header">
                     Bucket list
-                </div><br />
+                </h1><br />
 
                 <div class="card">
-                    
-                    <ul class="myList">
+                  <!-- This is the order list set up . -->
+                    <ol class="myList">
                         <li>
-                            Item 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                            Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
+                            Completing my Bachelor's Degree in web development.
                         </li>
                         <li>
-                            Item 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                            Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
+                            Go on a week-long cruise with my family.
                         </li>
                         <li>
-                            Item 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                            Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
+                            Work my dream job in web development.
                         </li>
                         <li>
-                            Item 4: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                            Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
+                            Complete a Master's Degree in software engineering.
                         </li>
                         <li>
-                            Item 5: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                            Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
+                            Become fluent in English.
                         </li>
                         <li>
-                            Item 6: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                            Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
+                            Start my own software development company.
                         </li>
                         <li>
-                            Item 7: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                            Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
+                            Creating a successful social app.
                         </li>
                         <li>
-                            Item 8: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                            Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
+                            Buying a bigger house.                          
                         </li>
-                    </ul>
+                    </ol>
                 </div>
             </div>
         </div>
     </div>
-
+        <!-- Import the footer. -->
     <footer-component></footer-component>
 </body>
 </html>

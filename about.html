@@ -7,70 +7,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
 
     <!-- Stylesheet references -->
     <link rel="stylesheet" href="site.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-    <link href=>
-    <link href=>
-
-
     <!-- JavaScript references -->
     <script src="header.js"></script>
     <script src="footer.js"></script>
 </head>
 <body>
+<!-- Import the header. -->
 <header-component></header-component>
 
 <div class="assign-container">
     <div>
+        <!-- This is the setup for class app-header. -->
         <h1 class="app-header">Hi, my name is<br /> <b>Soliman Abdelmalak!.</b></h1>
-      <img class="main-picture" src="images/main2.jpg" alt="my main picture" title="Soliman Abdelmalak"
-         width="300" height="400" />
+        <!-- This is the setup for main2 image. -->
+        <picture>
+            <source srcset="images/main2.jpg" alt="my main picture" title="Soliman Abdelmalak"
+            width="300" height="400" class="main-picture"/>
+            <source srcset="images/main2.jpg" media="(max-width: 600px)">
+            <source srcset="images/main2.jpg" media="(max-width: 1500px)">
+            <source srcset="images/main2.jpg">
+            <img src="images/main2.jpg" alt="Flowers">
+          </picture>
     </div>
-    <div class="about-content">
+    <div>
         <div style="width:60%;"  class="card">
+            <!-- This is the setup for card-content and h4. -->
             <div class="card-content">
-                <h2>
-                    Hello there, and welcome to my site! I am currently a student at Bellevue University, working towards a bachelor's degree in Web Development. I am married and have 3 kids, and I am working a full-time job. In my free time, I enjoy reading, traveling, watching Tv, and being in nature whether. I also like to drink coffee!. I love being creative both at work and home while enjoying time with my family. I enjoy the problem-solving aspects of development as well as the unlimited educational opportunity and potential for growth. Please take a look at some of my work and feel free to contact me at any time.
-
-                </h2>
+                <h6>
+                    Hello there, and welcome to my site! I am currently a student at Bellevue University, working towards a bachelor's degree in Web Development. I am married and have 3 kids, and I am working a full-time job as a Dining Manager. In my free time, I enjoy reading, traveling, watching Tv, and being in nature whether. I also like to drink coffee!. I love being creative both at work and home while enjoying time with my family. I enjoy the problem-solving aspects of development as well as the unlimited educational opportunity and potential for growth. Please take a look at some of my work and feel free to contact me at any time.
+                </h6>
             </div>
         </div>
-        <br />
-         <div id="return-home"> <a href="index.html" class="return-home">Return</a></div>
     <div> 
+    <!-- These are .images setup. -->
     <div class="images">
         <div>
-            <figure>
-                 <img src="images/Trip.JPEG" alt="Egypt trip" title="During my trip to the sphinx and pyramids of Egypt" width="250" height="350"/>
-                 <figcaption> During my trip to Egypt</figcaption>
-            </figure>
+            <picture>
+                <source srcset="images/Trip.JPEG" alt="Egypt trip" title="During my trip to the sphinx and pyramids of Egypt" width="250" height="350"/>
+                <source srcset="images/Trip.JPEG" media="(max-width: 600px)">
+                <source srcset="images/Trip.JPEG" media="(max-width: 1500px)">
+                <source srcset="images/Trip.JPEG">
+                <img src="images/Trip.JPEG" alt="Flowers">
+                <figure>
+                   <figcaption> During my trip to Egypt</figcaption>
+                </figure>
+            </picture>
         </div>
         <div>
-            <figure>
-                 <img src="images/2.jpg" alt="family" title="my Brother and me" width="250" height="350"/>
-                 <figcaption>With my brother</figcaption>
-            </figure>
+            <picture>
+                <source srcset="images/2.jpg" alt="family" title="my Brother and me" width="250" height="350"/>
+                <source srcset="images/2.jpg" media="(max-width: 600px)">
+                <source srcset="images/2.jpg" media="(max-width: 1500px)">
+                <source srcset="images/2.jpg">
+                <img src="images/2.jpg" alt="Flowers">
+                <figure>
+                    <figcaption>With my brother</figcaption>
+                </figure>
+            </picture>
         </div>
         <div>
-            <figure>
-                 <img src="images/3.jpeg" alt="my kids" title="my kids" width="250" height="350"/>
-                 <figcaption>my kids in Christmas Eve </figcaption>
-            </figure>
+            <picture>
+                <source srcset="images/3.jpeg" alt="my kids" title="my kids" width="250" height="350"/>
+                <source srcset="images/3.jpeg" media="(max-width: 600px)">
+                <source srcset="images/3.jpeg" media="(max-width: 1500px)">
+                <source srcset="images/3.jpeg.jpg">
+                <img src="images/3.jpeg" alt="Flowers">
+                <figure>
+                    <figcaption>My kids in Christmas Eve</figcaption>
+                </figure>
+            </picture>
         </div>
         <div>
-            <figure>
-                 <img src="images/family.JPEG" alt="family" title="my brother family and me" width="250" height="350"/>
-                 <figcaption>A trip with my brother family</figcaption>
-            </figure>
+            <picture>
+                <source srcset="images/family.JPEG" alt="family" title="my brother family and me" width="250" height="350"/>
+                <source srcset="images/family.JPEG" media="(max-width: 600px)">
+                <source srcset="images/family.JPEG" media="(max-width: 1500px)">
+                <source srcset="images/family.JPEG">
+                <img src="images/family.JPEG" alt="Flowers">
+                <figure>
+                    <figcaption>A trip with my brother family</figcaption>
+                </figure>
+            </picture>
         </div>      
     </div>
+        <!-- this is an internal link to the landing page index. -->
+         <h4> <a href="index.html" class="return-home">Return</a></h4>
 </div>
 
-
+<!-- Import the footer. -->
 <footer-component></footer-component>
 </body>
 </html>
