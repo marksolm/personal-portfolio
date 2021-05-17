@@ -265,6 +265,14 @@ a{
      margin-top: 50px;
      text-align: center;
 }
+/* Single column display for phones */
+@media (max-width: 459px) {
+    .archive {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
   
 /**
   this is about page .main-picture setup.
