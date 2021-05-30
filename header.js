@@ -34,7 +34,7 @@ class Header extends HTMLElement
                         <div class="drop-down-menu">
                              <a href="Api-unit-tests.html">API Unit Tests</a>
                              <a href="bucket-list.html">bucket list</a>
-                             <a href="Database-diagrams.html">Database Diagrams</a>
+                             <a href="./web-335/Abdelmalak-diagrams.html">Database Diagrams</a>
                         </div>
                     </li>
                 </ul>

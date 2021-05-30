@@ -16,13 +16,7 @@ Description: Styling for the projects.html file
     grid-gap: 20px;
     position: relative;
 }
-/* Single column display for phones */
-@media (max-width: 459px) {
-    .archive {
-      display: flex;
-      flex-direction: column;
-    }
-  }
+
 /**
    This is the setup for the figure div .projects.
 */
@@ -44,7 +38,7 @@ Description: Styling for the projects.html file
    This is the setup  for .title to be on the top element .
 */
 .title{
-    color: #4F3674;
+    color:#996515;
     text-align: center;
     z-index: 1000;
     position: relative;
