@@ -8,48 +8,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my Api-unit-tests page</title>
+    <title>Api-unit-tests page</title>
 
     <!-- Stylesheet references -->
-    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="./site.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">       
-    <!-- JavaScript references -->
-    <script src="header.js"></script>
-    <script src="footer.js"></script>
-</head>
-<body>
-    <!-- Import the header. -->
-    <header-component></header-component>
-
+    <link rel="stylesheet" href="./projects.css">
+  </head>
+<body><br />
     <div class="assign-container">
-        <h1 class="app-header">Api-unit-tests</h1>
-        <div class="assign-content-">
-            <div class="card">
-                <div class="card-title">
-                    <!-- This is the setup for place holder. -->
-                    <input class="input" type="text" name="diagrams" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                    Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
-                    Quisque lobortis interdum nibh ac lobortis. Nulla facilisi. Cras  porttitor mauris ut justo mattis lobortis.
-                    Vivamus malesuada libero ut  sem euismod eu fringilla ipsum feugiat. Nunc sed vestibulum lorem.">
-                    <br />
-                    <input class="input" type="text" name="diagrams" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                    Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
-                    Quisque lobortis interdum nibh ac lobortis. Nulla facilisi. Cras  porttitor mauris ut justo mattis lobortis.
-                    Vivamus malesuada libero ut  sem euismod eu fringilla ipsum feugiat. Nunc sed vestibulum lorem."> 
-                    <br /> 
-                    <input  class="input" type="text" name="diagrams" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  interdum turpis a nisi congue dapibus.
-                    Etiam dapibus euismod urna, sed  tempus ipsum feugiat nec. Mauris ac lectus ipsum, eu imperdiet dui.
-                    Quisque lobortis interdum nibh ac lobortis. Nulla facilisi. Cras  porttitor mauris ut justo mattis lobortis.
-                    Vivamus malesuada libero ut  sem euismod eu fringilla ipsum feugiat. Nunc sed vestibulum lorem.">
-                </div>
-
-                <div class="card-content">
-                    
-                </div>
+      <!-- this is an internal link to the landing page index. -->
+      <button><a href="../index.html"><b>Return Home</b></a></button>
+     <!-- This is the setup for app-header and #blue. -->
+     <h1 id="blue" class="app-header"><a href="#top"></a>Welcome to my Api-unit-tests page</h1>
+     <!-- Diagram Heading -->
+     <h1 class="app-header">Api-unit-tests Gallery</h1>
+     <div class="archive projects-container">
+        <div class="card">
+            <!-- This is the setup  for card title to be on the top element.  -->
+            <div class="card-title title">SoapUI-POST-test</div>
+            <div class="projects">
+            <a target="_blank" href="./Api-unit-tests/creatComposer-Soapul-post-test.png">
+                <img src="./Api-unit-tests/creatComposer-Soapul-post-test.png" alt="SoapUI-post-test" width="600" height="400">
+            </a>
+                <figcaption> <b>This is an image of Created and posted a new composer using SoapUI.</b></figcaption>
             </div>
         </div>
+
+        <div class="card">
+            <!-- This is the setup  for card title to be on the top element.  -->
+            <div class="card-title title"> SoapUI-POST-test</div>
+            <div class="projects">
+            <a target="_blank" href="./Api-unit-tests/findAllComposers-Soapul-get-test.png">
+                <img src="./Api-unit-tests/findAllComposers-Soapul-get-test.png" alt="SoapUI-post-test" width="600" height="400">
+            </a>
+            <figcaption> <b>This is an image of Find all composers list using Soapul-get method .</b></figcaption>
+            </div>
+        </div>
+        <div class="card">
+        <!-- This is the setup  for card title to be on the top element.  -->
+        <div class="card-title title">Swagger-GET-test</div>
+        <div class="projects">
+            <a target="_blank" href="./Api-unit-tests/findComposerById-get-Swagger-test.png">
+            <img src="./Api-unit-tests/findComposerById-get-Swagger-test.png" alt="Swagger-test" width="600" height="400">
+            </a>
+            <figcaption> <b>This is an image of find a composer by Id Swagger-GET method</b></figcaption>
+        </div>
+        </div>
+            <br />
+            <!-- this is an internal link to the top of the page. -->
+            <h4><a href="#top" id="blue">Top</a></h4>
+            <!-- this is an internal link to the landing page index. -->
+            <h4> <a href="../index.html" class="return-home">Return</a></h4>
+        </div>       
     </div>
-<!-- Import the footer. -->
-    <footer-component></footer-component>
 </body>
 </html>
