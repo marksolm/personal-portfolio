@@ -387,12 +387,34 @@ ol{
     float: left;
     width: 24.99999%;
   }
-  @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
-    }
-  @media only screen and (max-width: 500px) {
+    }   
+}
+@media only screen and (max-width: 500px) {
     .responsive {
-      width: 100%;
+        width: 100%;
     }
+}
+
+/* This is the setup for card-body class devops-presentations page */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C7D8C6;
+  }
+
+  .vedio {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/web-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 500ms;
+  }
