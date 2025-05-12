@@ -9,10 +9,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my Resume page</title>
+    <title>Soliman D. Abdelmalak - Resume</title>
 
     <!-- Stylesheet references -->
     <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="resume.css">
+
     <meta name="keywords" content="Soliman, Abdelmalak, Soliman Abdelmalak, CSS, HTML, Web developer,JavaScript, Software Engineer" />
 
     <!-- JavaScript references -->
@@ -22,130 +24,73 @@
 <body>
     <!-- Import the header. -->
     <header-component></header-component>
-    <div class="assign-container resume">
-        <!-- This is the setup for  pdf file. -->
-        <h3 style="text-align: right;"><a href="images/ Resume.pdf" download>Download</a></h3>
-        <div>
-            <!-- These are the setup for h1 and h2 . -->
-            <h1 class="app-header">My Awesome Resume</h1>
-            <h1 style="text-align: center;" id="blue">Soliman Abdelmalak</h1>
-            <h2 class="app-header"><span style="color: #000099; text-align: center;">
-             Web Designer & Developer <br /><a style="color: #000099;" href="mailto:marksolm08@gmail.com">My Email Link</a>
-            </h2>
-        </div>         
-        <hr />
-        <div>
-            <h1 style="text-align: center;" class="app-header">OBJECTIVE</h1>
-            <p style="font-size: 1.4em;">I’m a Web Designer & Developer professional seeking employment.<br />
-                To obtain a position utilizing my knowledge and skills with a leading industry company that will offer opportunity for advancement.
-            </p>
-        </div>
-         <hr />
-        <div>
-            <h1 style="text-align: center;" class="app-header">EDUCATION</h1>
-        </div>
-         <!-- This is setup for the Education List table -->
-            <div>
-			    	<table>
-				 	    <thead>
-						    <tr>
-						    	<th>Institution</th>
-                                <th>Area of Study</th>
-                                <th>Degree/Certificate</th>
-                                <th>Year obtained</th>
-						    </tr>
-					    </thead>
-					    <tbody>
-						    <tr>
-                               <td>Bellevue University</td>
-                               <td>BS</td>
-                                <td> Full-Stack Web Development </td>
-                                <td>Will graduate on March 2022 </td>
-						    </tr>
-						    <tr>
-                                <td>Montgomery County Community College</td>
-                                <td>Certificate</td>
-                                 <td> Medical Coding</td>
-                                 <td>2012</td>
-						    </tr>
-					    </tbody>
-				    </table>
-            </div>
-            <hr />
-            <!-- This is setup for the experiences section table -->
-            <div>
-                <h1 style="text-align: center;" class="app-header">EXPERIENCE and EMPLOYMENT</h1>
-				<table>
-					<thead>
-						<tr>
-                            <th>Company</th>
-                            <th>Positions Held</th>
-							<th>Dates Employed:</th>
-							<th>Job Duties</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Dining services</td>
-							<td> Dining Services Manager</td>
-							<td>2015 - present</td>
-							<td>
-                                <ul>
-                                    <li>Supervise the food preparation, production, and service.</li>
-                                    <li>Responsible for cash handling including revenue reporting and cash drawer reconciliation.</li>
-                                    <li>Assist in the training of new employees. </li>
-                                    <li>Places daily orders for operation. Monitors receiving and storage of food and supplies.</li>
-                                    <li>Monitors safety and sanitation policies and procedures and reports problems to the general manager.</li>
-                                    <li>Supervise work assignments of employees including production sheets, temperature logs, and meal breaks/times.</li>
-                                    <li>Opens and/or secures operations at beginning and/or end of shifts.</li>
-                                    <li>Perform other duties and assist with projects as assigned.</li>
-
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        <HR />
-        
-        <div>
-            <!-- This is the setup for skill title and un order li -->
-            <h1 style="text-align: center;" class="app-header">Skills</h1>
-            <div class="skills">
-                <div>
-                    <ul>
-                        <li><a href="projects.html">Link to<b> my Awesome Projects</b></a></li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>MongoDB</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>Testing/Debugging</li>
-                        <li>Responsive/Mobile Design</li>
-                        <li>RESTful Services/APIs</li>
-                        <li>typescript</li>
-                        <li>Angular</li>
-
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                         <!-- This is an internal link to my project. -->
-                        <li>Node.js</li>
-                        <li>Git/Version Control</li>
-                        <li>SoapUI</li>
-                        <li>Management</li>
-                        <li>Problem Solving</li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
+  
+    <!-- Centered resume content with download link on the top-right of the container -->
+    <div class="container">
+      <!-- This is the setup for  pdf file. -->
+      <a href="href="images/Resume.pdf " class="download-btn" download>Download Resume</a>
+      <h1>Soliman D. Abdelmalak</h1>
+      <p><strong>Email:</strong> <a href="mailto:mjtwebdev@gmail.com">mjtwebdev@gmail.com</a></p>
+  
+      <section>
+        <h2>Objective</h2>
+        <p>
+          Motivated web developer and current Software Engineering graduate student seeking to apply hands-on experience and strong foundational skills to the Associate Full Stack Developer role. Passionate about building responsive web solutions and improving user experience through front-end and back-end development.
+        </p>
+      </section>
+  
+      <section>
+        <!-- This is setup for the Education List  -->
+        <h2>Education</h2>
+        <ul>
+          <li><strong>Master of Science in Software Engineering</strong> (In Progress) – 2023 – Present</li>
+          <li><strong>Bachelor of Science in Web Development</strong> – Graduated: March 2022</li>
+          <li><strong>Certificate in Medical Coding</strong> – 2012</li>
+        </ul>
+      </section>
+      <!-- This is setup for the experiences section -->
+      <section>
+        <h2>Experience</h2>
+        <h3>Dining Services Manager</h3>
+        <p>2015 – Present</p>
+        <ul>
+          <li>Supervise food preparation, production, and service.</li>
+          <li>Assist in the training of new employees.</li>
+          <li>Place daily orders for operation; monitor receiving and storing of food and supplies.</li>
+          <li>Monitor safety and sanitation policies and procedures; report problems to the general manager.</li>
+        </ul>
+  
+        <h3>Volunteer Website Manager</h3>
+        <p>January 2024 – Present</p>
+        <ul>
+          <li>Manage and maintain a Christian diocese website using WordPress.</li>
+          <li>Collaborate with clergy and community stakeholders to ensure timely updates.</li>
+          <li>Improve navigation and page performance to enhance user experience.</li>
+        </ul>
+      </section>
+  
+      <section>
+        <h2>Additional Information</h2>
+        <p>
+          Proficient in a variety of computer software and web development tools, with a strong ability to quickly learn new technologies. Demonstrated strengths in problem-solving, teamwork, organization, and customer service. Solid understanding of computer hardware, operating systems, and networking. Eager and willing to learn any new frameworks, programming languages, or tools required.
+        </p>
+      </section>
+       <!-- This is the setup for Technical Skills section -->
+      <section>
+        <h2>Technical Skills</h2>
+        <ul>
+          <li><a href="projects.html">Link to<b> my Awesome Projects</b></a></li>
+          <li><strong>Front-End:</strong> HTML, CSS, JavaScript, Bootstrap, Angular</li>
+          <li><strong>Back-End:</strong> Node.js, Express.js, MongoDB, SQL, C</li>
+          <li><strong>Tools/Platforms:</strong> Git, Postman API, SoapUI, RESTful APIs</li>
+          <li><strong>CMS:</strong> Adobe Experience Manager (basic knowledge), WordPress</li>
+          <li><strong>Design & Testing:</strong> Responsive Design, Debugging, UX Fundamentals</li>
+          <li><strong>Additional:</strong> Excellent communication, collaborative team player, fast learner</li>
+        </ul>
+      </section>
     </div>
-   <!-- Import the footer. -->
-   <footer-component></footer-component>
-</body>
-</html>
+       <!-- Import the footer. -->
+    <footer-component></footer-component>
+  </body>
+  </html>
+  
